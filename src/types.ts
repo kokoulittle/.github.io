@@ -1,41 +1,50 @@
-// src/types.ts
+export interface SocialLinks {
+  email: string;
+  linkedin: string;
+  github: string;
+  twitter?: string;
+}
 
-export interface EducationItem {
-  degree: string;
-  school: string;
+export interface SkillCategory {
+  category: string;
+  items: string[];
+}
+
+export interface Project {
+  name: string;
+  description: string;
+  link: string;
+  technologies: string[];
+  highlights?: string[];
+}
+
+export interface Experience {
+  company: string;
+  role: string;
   dateRange: string;
   achievements: string[];
 }
 
-export interface ExperienceItem {
-  title: string;
-  company: string;
+export interface Education {
+  institution: string;
+  degree: string;
   dateRange: string;
-  bullets: string[];
-}
-
-export interface ProjectItem {
-  name: string;
-  description: string;
-  skills?: string[];
-  link?: string;
-}
-
-export interface SocialLinks {
-  email?: string;
-  linkedin?: string;
-  twitter?: string;
-  github?: string;
+  details?: string[];
 }
 
 export interface SiteConfig {
-  name: string;
-  title: string;
-  aboutMe: string;
-  accentColor: string;
-  skills: string[];
-  education: EducationItem[];
-  experience: ExperienceItem[];
-  projects: ProjectItem[];
+  personal: {
+    name: string;
+    title: string;
+    description: string;
+  };
+  branding: {
+    accentColor: string;
+  };
   social: SocialLinks;
+  about: string;
+  skills: SkillCategory[];
+  projects: Project[];
+  experience: Experience[];
+  education: Education[];
 }
