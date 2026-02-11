@@ -8,7 +8,7 @@ export const siteConfig: SiteConfig = {
     "I am a finance and data enthusiast with expertise in financial modelling, forecasting, and data-driven insights. I leverage Python, Excel, and BI tools to deliver actionable analysis for investment and business decisions.",
 
   /** UI Theme */
-  accentColor: "#0c2878", // Blue accent
+  accentColor: "#051a54", // Blue accent
   skills: ["Python", "Excel", "SQL", "Tableau", "Power BI", "Forecasting"],
 
   /** Portfolio Sections */
