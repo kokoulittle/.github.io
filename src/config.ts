@@ -1,97 +1,97 @@
-export const siteConfig = {
-  name: "Jacques Wemegan",
-  title: "Data Professional",
-  description: "Portfolio website of Jacques Wemegan",
-  accentColor: "#13328f",
+export const siteConfig: SiteConfig = {
+  personal: {
+    name: "Jacques Wemegan",
+    title: "Data Analyst | Financial Data & AI Enthusiast",
+    description: "Portfolio of Jacques Wemegan – Data & Finance Professional",
+  },
+
+  branding: {
+    accentColor: "#13328f",
+  },
+
   social: {
     email: "jacquesk.wemegan@outlook.com",
     linkedin: "https://www.linkedin.com/in/jacques-kokouvi-wemegan/",
-    //twitter: "https://x.com/rfitzio",
     github: "https://github.com/kokoulittle",
   },
-  aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+
+  about:
+    "Data professional with a strong interest in financial analytics, business intelligence, and applied machine learning. I specialize in transforming complex datasets into structured insights that support strategic decision-making. My work spans time-series forecasting, sentiment analysis, and financial data modeling using Python and modern analytics tools. I am particularly interested in leveraging data science to improve financial performance analysis, risk evaluation, and investment research.",
+
   skills: [
     {
-      languages: ["Python", "SQL", "VBA"],
-      libraires: ["Pandas", "NumPy", "Matplotlib", "Scikit-Learn"],
-      dataviz: ["Plotly", "Excel", "Matplotlib", "Seaborn"]
-          },
-           ],
+      category: "Programming & Query Languages",
+      items: ["Python", "SQL", "VBA"],
+    },
+    {
+      category: "Data Analysis & Machine Learning",
+      items: ["Pandas", "NumPy", "Scikit-Learn", "XGBoost", "Keras"],
+    },
+    {
+      category: "Data Visualisation",
+      items: ["Matplotlib", "Seaborn", "Plotly", "Excel"],
+    },
+    {
+      category: "Finance & Analytics",
+      items: ["Time Series Forecasting", "Financial Modelling", "Sentiment Analysis"],
+    },
+  ],
+
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Book Sales Time Series Forecasting",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Forecasted weekly sales using classical time-series models (ARIMA) and machine learning approaches (XGBoost, LSTM) with model comparison and performance evaluation.",
+      link: "https://github.com/kokoulittle",
+      technologies: ["Python", "ARIMA", "XGBoost", "LSTM", "Pandas"],
+      highlights: [
+        "Stationarity testing and decomposition",
+        "Model performance comparison",
+        "Hybrid forecasting experimentation",
+      ],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Sentiment Analysis on Customer Reviews",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Applied NLP techniques and topic modelling (BERTopic) to extract insights from online reviews and measure sentiment trends.",
+      link: "https://github.com/kokoulittle",
+      technologies: ["Python", "BERTopic", "NLTK", "Scikit-Learn"],
+      highlights: [
+        "Text preprocessing pipeline",
+        "Topic extraction and clustering",
+        "Sentiment-driven insights",
+      ],
     },
   ],
+
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+      company: "Independent Projects",
+      role: "Data Analyst / Data Science Practitioner",
+      dateRange: "2024 – Present",
+      achievements: [
+        "Developed forecasting models for time-series sales data",
+        "Built NLP pipelines for sentiment and topic modelling",
+        "Produced analytical reports combining statistical and ML approaches",
       ],
     },
   ],
+
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+      institution: "Bachelor of Science in Business Administration",
+      degree: "BSc. Business Administration",
+      dateRange: "2020",
+      details: [
+        "Strong foundation in finance, accounting, and business strategy",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+      institution: "Data Science Training",
+      degree: "Data Science & Machine Learning",
+      dateRange: "Ongoing",
+      details: [
+        "Supervised learning, deep learning, and time-series modelling",
       ],
     },
   ],
