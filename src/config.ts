@@ -5,7 +5,7 @@ export const siteConfig: SiteConfig = {
   name: "Jacques Wemegan",
   title: "Finance & Data Analyst",
   aboutMe:
-    "I am a finance and data enthusiast with expertise in financial modeling, forecasting, and data-driven insights. I leverage Python, Excel, and BI tools to deliver actionable analysis for investment and business decisions.",
+    "I am a finance and data enthusiast with expertise in financial modelling, forecasting, and data-driven insights. I leverage Python, Excel, and BI tools to deliver actionable analysis for investment and business decisions.",
 
   /** UI Theme */
   accentColor: "#1D4ED8", // Blue accent
@@ -18,7 +18,7 @@ export const siteConfig: SiteConfig = {
       school: "University XYZ",
       dateRange: "2016 - 2020",
       achievements: [
-        "Graduated with honors",
+        "Graduated with honours",
         "Dean's list for 3 consecutive years",
         "Relevant coursework: Financial Analysis, Econometrics, Accounting"
       ]
@@ -56,7 +56,7 @@ export const siteConfig: SiteConfig = {
     },
     {
       name: "Sales Dashboard",
-      description: "Interactive BI dashboard for visualizing sales trends and KPIs across multiple regions.",
+      description: "Interactive BI dashboard for visualising sales trends and KPIs across multiple regions.",
       skills: ["Tableau", "Excel", "Power BI"],
       link: "https://github.com/kokoulittle/sales-dashboard"
     }
