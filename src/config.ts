@@ -15,10 +15,9 @@ export const siteConfig = {
     {
       languages: ["Python", "SQL", "VBA"],
       libraires: ["Pandas", "NumPy", "Matplotlib", "Scikit-Learn"],
-      dataviz: ["Plotly", "Excel", "Matplotlib", "Seaborn"] 
-           }
+      dataviz: ["Plotly", "Excel", "Matplotlib", "Seaborn"]
           },
-           ]
+           ],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
