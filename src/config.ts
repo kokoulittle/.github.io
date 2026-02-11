@@ -9,7 +9,7 @@ export const siteConfig: SiteConfig = {
     "Data Scientist certifié par Cambridge, avec une solide expertise en Finance et en Climat. Je me spécialise dans la transformation de données non structurées en insights stratégiques grâce à l'IA, au Machine Learning et à l'automatisation avancée (Python, VBA). Mon approche combine rigueur analytique et compréhension approfondie des enjeux de stabilité financière mondiale.",
 
   /** UI Theme */
-  accentColor: "#1D4ED8", // Blue accent
+  accentColor: "#051a54", // Blue accent
   skills: ["Python (Pandas, NumPy)", "Machine Learning", "VBA & Automation", "Financial Modelling", "Data Visualisation", "Natural Language Processing (NLP)"],
 
   /** Portfolio Sections */
