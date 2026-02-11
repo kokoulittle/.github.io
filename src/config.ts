@@ -46,6 +46,16 @@ export const siteConfig: SiteConfig = {
 
   experience: [
     {
+      title: "Assistant de Recherche",
+      company: "New Dimension Consulting",
+      dateRange: "2023 - 2024",
+      bullets: [
+        "Supervision de collectes de données d'enquêtes à grande échelle et formation d'enquêteurs",
+        "Analyse comparative de données qualitatives et quantitatives pour des études d'impact international",
+        "Traduction technique et analyse de rapports bilingues (Anglais/Français)"
+      ]
+    },
+    {
       title: "Project Finance Officer",
       company: "Sustainable Solutions for Africa (SSA)",
       dateRange: "2020 - 2022",
@@ -55,16 +65,7 @@ export const siteConfig: SiteConfig = {
         "Nettoyage et analyse statistique des profils d'émissions de GES pour la région CEDEAO"
       ]
     },
-    {
-      title: "Assistant de Recherche",
-      company: "New Dimension Consulting",
-      dateRange: "2023 - 2024",
-      bullets: [
-        "Supervision de collectes de données d'enquêtes à grande échelle et formation d'enquêteurs",
-        "Analyse comparative de données qualitatives et quantitatives pour des études d'impact international",
-        "Traduction technique et analyse de rapports bilingues (Anglais/Français)"
-      ]
-    }
+    
   ],
 
   projects: [
@@ -72,8 +73,8 @@ export const siteConfig: SiteConfig = {
       name: "AI Financial Surveillance Pipeline (Bank of England)",
       description: "Développement d'un pipeline d'IA transformant les données non structurées des G-SIB en insights exploitables pour l'évaluation proactive des risques financiers.",
       skills: ["Python", "NLP", "Machine Learning", "Financial Stability"],
-      link: "https://github.com/kokoulittle/bank-of-england-ai"
-    },
+      link: "https://github.com/kokoulittle/BankofEngland_EP"
+    }
 
   ],
 
