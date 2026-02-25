@@ -32,7 +32,7 @@ export interface SiteConfig {
   /** Personal Info */
   name: string;
   title: string;
-  aboutMe: string;
+  aboutMe: string | string[];
 
   /** UI Theme */
   accentColor: string;
