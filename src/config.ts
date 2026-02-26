@@ -81,7 +81,7 @@ export const siteConfig: SiteConfig = {
     },
 
     {
-      name: "maritime-engine-anomaly-detection",
+      name: "Maritime Engine Anomaly Detection",
       description: "Conception d'un système de détection d'anomalies pour moteurs maritimes afin d'identifier précocement les défaillances et d'améliorer la maintenance prédictive.",
       skills: ["Python", "Anomaly Detection", "Feature Engineering", "Unsupervised Learning", "Predictive Maintenance"],
       link: "https://github.com/kokoulittle/maritime-engine-anomaly-detection"
