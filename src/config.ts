@@ -78,6 +78,13 @@ export const siteConfig: SiteConfig = {
       description: "Développement d'un pipeline d'IA transformant les données non structurées des G-SIB en insights exploitables pour l'évaluation proactive des risques financiers.",
       skills: ["Python", "NLP", "Machine Learning", "Financial Stability"],
       link: "https://github.com/kokoulittle/BankofEngland_EP"
+    },
+
+    {
+      name: "maritime-engine-anomaly-detection",
+      description: "Conception d'un système de détection d'anomalies pour moteurs maritimes afin d'identifier précocement les défaillances et d'améliorer la maintenance prédictive.",
+      skills: ["Python", "Anomaly Detection", "Feature Engineering", "Unsupervised Learning", "Predictive Maintenance"],
+      link: "https://github.com/kokoulittle/maritime-engine-anomaly-detection"
     }
 
   ],
