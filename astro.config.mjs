@@ -8,5 +8,5 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   site: 'https://kokoulittle.github.io',
-  base: '/.github.io',
+  base: '/portfolio',
 });
